@@ -1,7 +1,7 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Yogesh Dhole
 ====================================================================================================================================
 
-SDET (Software Developer Engineer in Test)
+SDET (Software Development Engineer in Test)
 ------------------------------------------
 
 An SDET Engineer with hands-on experience in manual, automation, API, Performance, and Security Testing. The technologies I have worked on include Selenium, Playwright, Cypress, SpecFlow, Cucumber, JMeter, K6, OWASP ZAP, Appium, Postman, Maven, Behave, Pytest, BrowserStack, SQL, GitHub, Java, JavaScript, TypeScript, Python, C#, HTML, CSS. Also, I have hands-on experience in CI/CD the technologies I have used for CI/CD include Azure DevOps, AWS, and Github. Apart from this, I like to write blogs and explore new technologies.
