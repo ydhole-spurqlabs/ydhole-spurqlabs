@@ -1,27 +1,36 @@
-name: Latest Blog Post Workflow
+name: Latest blog posts
 
 on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 4 * * *' # run the workflow every day at 4:00 AM UTC
 
 jobs:
   update-readme-with-blog:
-    name: Update README with latest blog post
+    name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Update README with latest blog post
-        uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: 'https://testingsresourcehub.blogspot.com'
-          max_post_count: 1 # display only the latest post
-          readme_path: README.md
-          template: default # use the default template
-          commit_message: Updated latest blog post
-          committer_username: github-actions
-          committer_email: actions@github.com
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with: 
+          max_post_count: "5"
+          feed_list: 'https://testingsresourcehub.blogspot.com/'
+          gh_token: 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
+          readme_path: ./README.md
+          disable_sort: false
+#           filter_comments: medium,stackoverflow/Comment by $author/,stackexchange/Comment by $author/
+          template: default
+          date_format: UTC:ddd mmm dd yyyy h:MM TT
+          user_agent: rss-parser
+          accept_header: application/rss+xml
+          commit_message: Updated with the latest blog posts
+          committer_username: blog-post-bot
+          committer_email: blog-post-bot@example.com
+          output_only: false
+          enable_keepalive: true
+          retry_count: 0
+          retry_wait_time: 1
+          disable_html_encoding: false
+          categories_template: default
+          disable_item_validation: false
+          skip_commit: false
