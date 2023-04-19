@@ -22,10 +22,6 @@ An SDET Engineer with hands-on experience in manual, automation, API, Performanc
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ydhole-spurqlabs&label=Profile%20views&color=0e75b6&style=flat" alt="ydhole-spurqlabs" /> </p>
 
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
 ### Skills
 
 
