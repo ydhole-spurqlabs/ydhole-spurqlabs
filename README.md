@@ -6,9 +6,25 @@ SDET (Software Developer Engineer in Test)
 
 An SDET Engineer with hands-on experience in manual, automation, API, Performance, and Security Testing. The technologies I have worked on include Selenium, Playwright, Cypress, SpecFlow, Cucumber, JMeter, K6, OWASP ZAP, Appium, Postman, Maven, Behave, Pytest, BrowserStack, SQL, GitHub, Java, JavaScript, TypeScript, Python, C#, HTML, CSS. Also, I have hands-on experience in CI/CD the technologies I have used for CI/CD include Azure DevOps, AWS, and Github. Apart from this, I like to write blogs and explore new technologies.
 
-* 🌍  I'm based in Pune, Maharashtra, India
-* ✉️  You can contact me at [yogesh.dhole@spurqlabs.com](mailto:yogesh.dholep@gmail.com)
-* 🧠  I'm learning Performance Testing
+- 🔭 I’m currently working on **Software Testing**
+
+- 🌱 I’m currently learning **Playwright & Cypress**
+
+- 👯 I’m looking to collaborate on **Test Automation**
+
+- 🤝 I’m looking for help with **Software Testing**
+
+- 📝 I regularly write articles on [Click to View](https://testingsresourcehub.blogspot.com/)
+
+- 💬 Ask me about **Software Testing, Manual Testing, Test Automation, DevOps (CI/CD)**
+
+- 📫 How to reach me **yogesh.dhole@spurqlabs.com**
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ydhole-spurqlabs&label=Profile%20views&color=0e75b6&style=flat" alt="ydhole-spurqlabs" /> </p>
+
+### Blogs posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 ### Skills
 
