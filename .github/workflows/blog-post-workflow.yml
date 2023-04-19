@@ -1,16 +1,27 @@
-name: Latest blog post workflow
+name: Latest Blog Post Workflow
+
 on:
   push:
-    branches: [ main, master ]
+    branches:
+      - main
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 4 * * *' # run the workflow every day at 4:00 AM UTC
+
 jobs:
   update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+    name: Update README with latest blog post
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
-        with: 
-                max_post_count: "4"
-                feed_list: 'https://testingsresourcehub.blogspot.com'
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Update README with latest blog post
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: 'https://testingsresourcehub.blogspot.com/'
+          max_post_count: 1 # display only the latest post
+          readme_path: README.md
+          template: default # use the default template
+          commit_message: Updated latest blog post
+          committer_username: github-actions
+          committer_email: actions@github.com
