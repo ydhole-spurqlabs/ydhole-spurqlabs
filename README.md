@@ -5,7 +5,7 @@ SDET (Software Developer Engineer in Test)
 ------------------------------------------
 
 An SDET Engineer with hands-on experience in manual, automation, API, Performance, and Security Testing. The technologies I have worked on include Selenium, Playwright, Cypress, SpecFlow, Cucumber, JMeter, K6, OWASP ZAP, Appium, Postman, Maven, Behave, Pytest, BrowserStack, SQL, GitHub, Java, JavaScript, TypeScript, Python, C#, HTML, CSS. Also, I have hands-on experience in CI/CD the technologies I have used for CI/CD include Azure DevOps, AWS, and Github. Apart from this, I like to write blogs and explore new technologies.
-
+<img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
 - 🔭 I’m currently working on **Software Testing**
 
 - 🌱 I’m currently learning **Playwright & Cypress**
