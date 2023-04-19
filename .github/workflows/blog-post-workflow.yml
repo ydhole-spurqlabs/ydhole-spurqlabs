@@ -18,7 +18,7 @@ jobs:
       - name: Update README with latest blog post
         uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: 'https://testingsresourcehub.blogspot.com/'
+          feed_list: <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://testingsresourcehub.blogspot.com/" />
           max_post_count: 1 # display only the latest post
           readme_path: README.md
           template: default # use the default template
