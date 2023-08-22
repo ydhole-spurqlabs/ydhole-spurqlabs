@@ -14,7 +14,7 @@ An SDET Engineer with hands-on experience in manual, automation, API, Performanc
 
 - 🤝 I’m looking for help with **Software Testing**
 
-- 📝 I regularly write articles on [Click to View](https://testingsresourcehub.blogspot.com/)
+- 📝 I regularly write articles on [Click to View](https://testingresourcehub.blogspot.com/)
 
 - 💬 Ask me about **Software Testing, Manual Testing, Test Automation, DevOps (CI/CD)**
 
